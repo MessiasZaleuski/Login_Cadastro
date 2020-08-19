@@ -1,0 +1,13 @@
+CREATE DATABASE tela_login;
+
+use tela_login;
+
+CREATE TABLE usuarios (
+  id_usuario int(11) AUTO_INCREMENT primary key,
+  nome varchar(30),
+  data_nasc date,
+  email varchar(40),
+  senha varchar(32),
+  altura float(5),
+  peso float(3)
+);
